@@ -1,0 +1,124 @@
+/* SELECTOR UNIVERSAL*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+/* SELECTOR DE ETIQUETA */
+body{
+    background: #FFABAB;
+    
+    font-family: "Roboto Condensed", sans-serif;
+    color: #0f0b0c;
+    border 2px solid #000;
+    padding: 25px;
+    display: inline-block;
+    text-indent: 1px 1px 2px rgba(0,0,0,0.5);
+}
+
+/*  SELECTOR DE CLASE */
+p{
+    color:#2F3645;
+}
+.parrafo1{
+    margin-top: 20px;
+    color:#2F3645
+}
+.parrafo2{
+    color:#2F3645
+}
+/* SELECTOR DE ID */
+#informacion{
+    color: #000000;
+    margin-top: 20px;
+}
+
+.imagen1{
+    width: 310px;
+    margin: 40px;
+    border-radius: 50px;
+    border: solid;
+    color: rgb(4, 28, 6);
+}
+.imagen2{
+    width: 400px;
+    margin: 40px;
+    border-radius: 50px;
+    border: solid;
+    color: rgb(4, 28, 6);
+}
+.imagen3{
+    width: 200px;
+    margin: 40px;
+    border-radius: 50px;
+    border: solid;
+    color: rgb(4, 28, 6);
+}
+.container{
+    background: #FCC8D1;
+
+  /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.menu{
+    background-color: #D14D72;
+    margin: 5px;
+}
+.menu ul{
+    display: flex;
+    justify-content: end;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.menu ul li{
+    float: left;
+}
+.menu ul li a{
+    display:block;
+    color: #FEF2F4;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+.luciernagas{
+    background-image: url("https://www.interflora.es/blog/wp-content/uploads/2019/06/gerberas.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    line-height: 1900%;
+    width: 100%;
+    text-align: center;
+    text-decoration: dashed;
+    
+}
+#titulo{
+    
+    color: #f1e9eb;
+    font-size: 60px;
+    font-style: oblique;
+    border-color: #0f0b0c;
+    text-shadow: 
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    2px 2px 0 #000; 
+
+}
+.subtitulorojo{
+    margin-bottom: 20px;
+    
+}
+#lista{
+    margin-top: 20px;
+}
+#preguntas{
+    margin-top: 20px;
+    
+}
+#linea{
+    height: 4px;
+    background-color: #D14D72;
+}
